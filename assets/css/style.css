@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #c8d3d1;
 }
 
 a {
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  /*background: rgba(255, 255, 255, 0.8);*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #e9f5ff;
 }
 
 #hero p {
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 
@@ -340,7 +340,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #f4f7fc;
 }
 
 .section-title h2::before {
@@ -478,7 +478,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #b1b1b1;
 }
 
 .resume .resume-item {
@@ -500,7 +500,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  /*background: #f7f8f9;*/
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -529,6 +529,18 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #0563bb;
+}
+
+/*--------------------------------------------------------------
+# Thumpnail
+--------------------------------------------------------------*/
+
+.thumb-post img {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
 }
 
 /*--------------------------------------------------------------
