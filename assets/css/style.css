@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 115%;
   height: 100vh;
   background: url("../img/header\ pic\ .jpg") top right no-repeat;
   background-size: cover;
