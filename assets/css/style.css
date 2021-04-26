@@ -397,6 +397,8 @@ section {
   margin-bottom: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 MINISTER FOR MAGIC
 --------------------------------------------------------------*/
@@ -952,7 +954,7 @@ MINISTER FOR MAGIC
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 .contact .info i {
@@ -974,14 +976,14 @@ MINISTER FOR MAGIC
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #fafafa;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #e6e6e6;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -990,12 +992,12 @@ MINISTER FOR MAGIC
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 .contact .php-email-form .form-group {
