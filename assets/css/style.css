@@ -397,7 +397,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--*/
+/*-Flexbox-*/
 .holdingcontainer{
   max-width: 100%;
   display: flex;
@@ -934,7 +934,7 @@ MINISTER FOR MAGIC
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: rgb(255, 255, 255);
 }
 
 .testimonials .testimonial-item h4 {
