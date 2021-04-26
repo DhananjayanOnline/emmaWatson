@@ -558,11 +558,14 @@ MINISTER FOR MAGIC
 /*--------------------------------------------------------------
 # story
 --------------------------------------------------------------*/
-
+.block{
+  margin-bottom: 6px;
+  background: #18d26e;
+}
 
 .split-left{
   width: 500px;
-  height: 500px;
+  height: 505px;
   color: #ffffff;
   float: left;
 }
@@ -570,9 +573,10 @@ MINISTER FOR MAGIC
 .split-right{
   width: 500px;
   height: 500px;
-  color: #11dbcf;
+  color: #ffffff;
   float: left;
-  
+  margin: 10px;
+  margin-top: -5px;
 }
 
 /*--------------------------------------------------------------
