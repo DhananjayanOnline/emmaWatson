@@ -397,7 +397,48 @@ section {
   margin-bottom: 0;
 }
 
+/*--*/
+.holdingcontainer{
+  max-width: 100%;
+  display: flex;
+  background: #0563bb;
+  padding: 27px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
 
+.internalcontainerL{
+  flex: 1;
+  background: rgb(0, 0, 0);
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+}
+
+.internalcontainerM{
+  flex: 1;
+  background: rgb(0, 0, 0);
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+}
+
+.internalcontainerR{
+  flex: 1;
+  background: cyan;
+  padding: 30px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+}
+
+@media screen and (max-width: 768px){
+  .holdingcontainer{
+    flex-direction: column-reverse;
+  }
+}
 
 /*--------------------------------------------------------------
 MINISTER FOR MAGIC
