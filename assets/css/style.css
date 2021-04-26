@@ -397,7 +397,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--*/
+/*-Flexbox-*/
 .holdingcontainer{
   max-width: 100%;
   display: flex;
