@@ -401,7 +401,7 @@ section {
 .holdingcontainer{
   max-width: 100%;
   display: flex;
-  background: #464ebb9f;
+  background: #0563bb;
   padding: 27px;
   box-sizing: border-box;
   flex-direction: row;
@@ -411,7 +411,7 @@ section {
   flex: 1;
   background: rgb(0, 0, 0);
   padding: 30px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   margin: 3px;
 }
@@ -420,7 +420,7 @@ section {
   flex: 1;
   background: rgb(0, 0, 0);
   padding: 30px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   margin: 3px;
 }
@@ -429,7 +429,7 @@ section {
   flex: 1;
   background: cyan;
   padding: 30px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   margin: 3px;
 }
